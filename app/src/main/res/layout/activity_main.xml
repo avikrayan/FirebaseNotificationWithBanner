@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="rayan.avik.firebasefcm.MainActivity">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firebaselogo"
+        android:background="@drawable/firebase_logo_shot"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show_token"
+        android:layout_below="@+id/firebaselogo"
+       android:layout_centerHorizontal="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="19dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_show_token"
+        android:orientation="vertical"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="23dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tittle"
+        android:id="@+id/tittle_tv"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:textColorHint="#bdbdbd"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:hint="Message"
+            android:id="@+id/message_tv"
+            android:textSize="17dp"
+            android:textColorHint="#bdbdbd"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Show Token"
+        android:id="@+id/btn_show"
+        android:textStyle="bold"
+        android:background="#ffc107"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

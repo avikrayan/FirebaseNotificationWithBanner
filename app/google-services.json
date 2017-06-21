@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "446287047495",
+    "firebase_url": "https://fir-fcm-7a77d.firebaseio.com",
+    "project_id": "fir-fcm-7a77d",
+    "storage_bucket": "fir-fcm-7a77d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446287047495:android:05880c71309b229f",
+        "android_client_info": {
+          "package_name": "rayan.avik.firebasefcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446287047495-ccj1ui29n6tvssbsu3rpnulptad29bpb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxxTSl3w5H_jhqzoG3_yRHbJUbJ7RSO7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
